@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(to top, rgba(228, 87, 87, 0.5) 50%, rgba(252, 2, 2, 0.5) 50%),
+    url("wpp.png");
+  background-position: center;
+  background-size: cover;
+  color: white;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 1200px;
+  height: 75px;
+  margin: auto;
+}
+
+.icon {
+  width: 200px;
+  float: left;
+  height: 70px;
+}
+
+.logo {
+  color: #da4a62;
+  font-size: 35px;
+  font-family: Arial, sans-serif;
+  padding-left: 20px;
+  padding-top: 10px;
+  float: left;
+}
+
+.menu {
+  width: 400px;
+  float: left;
+  padding-left: 60px;
+  height: 70px;
+}
+
+ul {
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ul li {
+  list-style: none;
+  margin-left: 62px;
+  margin-top: 27px;
+  font-size: 14px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: rgb(250, 193, 196);
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+  transition: 0.4s ease-in-out;
+}
+
+ul li a:hover {
+  color: #ff7200;
+}
+
+.btn {
+  height: 40px;
+  background: #f5c0c9;
+  border: none;
+  color: black;
+  padding: 0 15px;
+  margin-left: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background: #ff7200;
+  color: white;
+}
+
+/* FOTO & TEKS */
+.content-section {
+  display: flex;
+  align-items: center;
+  margin-top: 100px;
+  padding: 0 50px;
+  gap: 30px;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #f5c0c9;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+/* ABOUT SECTION */
+.section#about {
+  width: 100%;
+  height: 85vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.85);
+  color: #333;
+  padding: 30px 20px;
+}
+
+.about-wrapper {
+  text-align: center;
+  padding: 30px;
+  border-radius: 15px;
+  max-width: 800px;
+}
+
+.about-wrapper h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  color: #da4a62;
+}
+
+.about-wrapper p {
+  font-size: 18px;
+  line-height: 1.8;
+  color: #444;
+}
+
+/* CONTACT SECTION */
+.section#contact {
+  width: 100%;
+  padding: 60px 20px;
+  background-color: #ffe6eb;
+  color: #333;
+  text-align: center;
+}
+
+.contact-wrapper {
+  max-width: 750px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.contact-wrapper h2 {
+  font-size: 32px;
+  color: #da4a62;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper p {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.contact-wrapper ul {
+  list-style: none;
+  padding: 0;
+  font-size: 18px;
+  line-height: 1.8;
+}
+
+.contact-wrapper ul li {
+  margin-bottom: 10px;
+}
